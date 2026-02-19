@@ -29,9 +29,9 @@
   add_action('wp_enqueue_scripts', 'my_custom_theme_enqueue_styles'); 
     function my_custom_theme_setup() { // Registrar menús  
       register_nav_menus(array(  
-              'header-menu' => __('Header Menu', 'temalabo2'),  
-              'footer-menu' => __('Footer Menu', 'temalabo2'),  
-              'mobile-menu' => __('Mobile Menu', 'temalabo2'),  
+              'header-menu' => __('Header Menu', 'my-custom-theme'),  
+              'footer-menu' => __('Footer Menu', 'my-custom-theme'),  
+              'mobile-menu' => __('Mobile Menu', 'my-custom-theme'),  
       ));  
   }  
   

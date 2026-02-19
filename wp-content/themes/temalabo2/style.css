@@ -1,12 +1,211 @@
-/* 
-Theme Name: Tema Laboratorio II 
-Author: Myriam 
-Author URI: https://myriam.com/blog/author/myriam/ 
-Description: Tema responsive creado con propósitos educativos. 
-Version: 1.0 
-License: GNU General Public License v3 or later 
-License URI: http://www.gnu.org/licenses/gpl-3.0.html 
-*/ 
-.header-container { 
-background-color: lightblue !important; 
-} 
+/*
+Theme Name: Tema Laboratorio II
+Author: Estudiante
+Author URI: https://estudiante.com/
+Description: Tema padre responsive creado con propósitos educativos para el TP de Laboratorio II 2025.
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    padding: 18px 0;
+    background-color: #fff;
+}
+
+.header-container h1 {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.header-container h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-container h1 a:hover {
+    color: #f39c12;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar .nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 6px 10px;
+    gap: 4px;
+}
+
+.navbar .nav > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav .nav-item {
+    margin: 0;
+}
+
+.nav .nav-link {
+    color: #ecf0f1 !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+    background-color: #f39c12;
+    color: #2c3e50 !important;
+}
+
+.layout-principal {
+    display: flex;
+    gap: 0;
+    min-height: 70vh;
+}
+
+.sidebar-aside {
+    width: 220px;
+    min-width: 200px;
+    flex-shrink: 0;
+    background-color: #eafaf1;
+    border: 1px solid #a9dfbf;
+    border-radius: 8px;
+    padding: 20px 16px;
+    margin-right: 24px;
+    align-self: flex-start;
+}
+
+.sidebar-aside h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e8449;
+    border-bottom: 2px solid #a9dfbf;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-aside p,
+.sidebar-aside ul {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+main {
+    flex: 1;
+}
+
+.post-card {
+    background: #ffffff;
+    border: 1px solid #dde3ea;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    padding: 22px 26px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: box-shadow 0.2s;
+}
+
+.post-card:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.11);
+}
+
+.post-card .post-titulo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 6px;
+}
+
+.post-card .post-titulo a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.post-card .post-titulo a:hover {
+    color: #f39c12;
+}
+
+.post-card .post-meta {
+    font-size: 0.82rem;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.post-card .post-meta span {
+    margin-right: 10px;
+}
+
+.post-card .post-contenido {
+    font-size: 0.97rem;
+    color: #444;
+    line-height: 1.7;
+}
+
+.no-posts {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 6px;
+    padding: 18px 20px;
+    color: #856404;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+
+.bienvenida-alert {
+    margin-bottom: 22px;
+}
+
+
+@media (max-width: 768px) {
+    .layout-principal {
+        flex-direction: column;
+    }
+
+    .sidebar-aside {
+        width: 100%;
+        min-width: unset;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .header-container h1 {
+        font-size: 1.3rem;
+    }
+}

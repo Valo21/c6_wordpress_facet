@@ -9,9 +9,7 @@
     <header class="header-container">
         <!-- podría ir código de logo -->
         <h1><?php bloginfo('name'); ?></h1>
-    </header>
-
-    <nav class="navbar navbar-light bg-light"> 
+        <nav class="navbar navbar-light bg-light"> 
         <section class="container">             
             <?php 
                 wp_nav_menu(array( 
@@ -24,3 +22,4 @@
             ?> 
         </section> 
     </nav>
+    </header>

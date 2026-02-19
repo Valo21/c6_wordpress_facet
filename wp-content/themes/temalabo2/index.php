@@ -1,24 +1,52 @@
 <?php get_header(); ?>
-<section class="d-flex">
+
+<section class="layout-principal">
+
     <?php get_sidebar(); ?>
+
     <main>
+
+        <?php
+
+        if (is_home()) {
+            echo '
+            <div class="bienvenida-alert alert alert-info alert-dismissible fade show" role="alert">
+                <strong>¡Bienvenido!</strong> Explorá las últimas entradas del sitio a continuación.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+            </div>
+            ';
+        }
+        ?>
+
         <?php
         if (have_posts()) {
             while (have_posts()) {
                 the_post();
-                echo ('<article class="card shadow-sm mb-4">');
-                echo ('<div class="card-body">');
-                echo ('<h2 class="card-title h4">' . get_the_title() . '</h2>');
-                echo ('<p class="text-muted small mb-2">Por: ' . get_the_author() . '</p>');
-                echo ('<div class="card-text">' . get_the_excerpt() . '</div>');
-                if (is_single() && get_post_type() == "post") {
-                    echo ('<a href="' . get_the_permalink() . '" class="btn btn-primary mt-3">Leer más</a>');
-                }
-                echo ('</div>');
-                echo ('</article>');
+
+                echo '<article class="post-card">';
+
+                echo '<h2 class="post-titulo">';
+                echo '<a href="' . get_the_permalink() . '">' . get_the_title() . '</a>';
+                echo '</h2>';
+
+                echo '<div class="post-meta">';
+                echo '<span>' . get_the_time('d/m/Y') . '</span>';
+                echo '<span>' . get_the_author() . '</span>';
+                echo '</div>';
+
+                echo '<div class="post-contenido">';
+                the_content();
+                echo '</div>';
+
+                echo '</article>';
             }
+        } else {
+            echo '<div class="no-posts">No hay entradas para mostrar.</div>';
         }
         ?>
+
     </main>
+
 </section>
+
 <?php get_footer(); ?>
