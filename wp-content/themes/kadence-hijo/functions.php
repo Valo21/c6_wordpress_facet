@@ -1,4 +1,24 @@
 <?php 
+  function bootstrap_css() { 
+    wp_enqueue_style( 'bootstrap_css',  
+    get_stylesheet_directory_uri() . '/bootstrap-5.3.3
+    dist/css/bootstrap.min.css',  
+    array(),  
+    '5.3.3' 
+    );  
+  } 
+  add_action( 'wp_enqueue_scripts', 'bootstrap_css');
+  function bootstrap_js() { 
+    wp_enqueue_script( 'bootstrap_js',  
+    get_stylesheet_directory_uri() . '/bootstrap-5.3.3
+    dist/js/bootstrap.bundle.min.js',  
+    array('jquery'),  
+    '5.3.3',  
+    true 
+    );  
+  } 
+  add_action( 'wp_enqueue_scripts', 'bootstrap_js');
+
   function my_child_theme_enqueue_styles() { 
   $parent_style = 'kadence';    
   wp_enqueue_style( $parent_style, get_template_directory_uri() . 
@@ -16,6 +36,5 @@
     $url = "https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"; 
     wp_enqueue_style('google_fonts', $url); 
   } 
-
 
 ?> 
