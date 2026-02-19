@@ -1,0 +1,12 @@
+/* 
+Theme Name: Tema Laboratorio II 
+Author: Myriam 
+Author URI: https://myriam.com/blog/author/myriam/ 
+Description: Tema responsive creado con propósitos educativos. 
+Version: 1.0 
+License: GNU General Public License v3 or later 
+License URI: http://www.gnu.org/licenses/gpl-3.0.html 
+*/ 
+.header-container { 
+background-color: lightblue !important; 
+} 
