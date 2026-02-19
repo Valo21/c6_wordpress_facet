@@ -1,8 +1,7 @@
 <?php 
   function bootstrap_css() { 
     wp_enqueue_style( 'bootstrap_css',  
-    get_stylesheet_directory_uri() . '/bootstrap-5.3.3
-    dist/css/bootstrap.min.css',  
+    get_stylesheet_directory_uri() . '/bootstrap-5.3.3-dist/css/bootstrap.min.css',  
     array(),  
     '5.3.3' 
     );  
@@ -10,8 +9,7 @@
   add_action( 'wp_enqueue_scripts', 'bootstrap_css');
   function bootstrap_js() { 
     wp_enqueue_script( 'bootstrap_js',  
-    get_stylesheet_directory_uri() . '/bootstrap-5.3.3
-    dist/js/bootstrap.bundle.min.js',  
+    get_stylesheet_directory_uri() . '/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js',  
     array('jquery'),  
     '5.3.3',  
     true 
