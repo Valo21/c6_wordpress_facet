@@ -1,0 +1,56 @@
+[2026-02-19 03:36:09] [ERROR] [KCMigrator] Successfully ran migration: 2025_01_28_MigrateDashboardSidebar (Plugin: KiviCare)
+[2026-02-19 03:36:09] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateAppointmentReminderMappingTable (Plugin: KiviCare)
+[2026-02-19 03:36:09] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateAppointmentServiceMappingTable (Plugin: KiviCare)
+[2026-02-19 03:36:10] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateAppointmentsTable (Plugin: KiviCare)
+[2026-02-19 03:36:10] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateBillItemsTable (Plugin: KiviCare)
+[2026-02-19 03:36:10] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateBillsTable (Plugin: KiviCare)
+[2026-02-19 03:36:11] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateClinicScheduleTable (Plugin: KiviCare)
+[2026-02-19 03:36:11] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateClinicSessionsTable (Plugin: KiviCare)
+[2026-02-19 03:36:11] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateClinicsTable (Plugin: KiviCare)
+[2026-02-19 03:36:12] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateCustomFieldDataTable (Plugin: KiviCare)
+[2026-02-19 03:36:12] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateCustomFieldsTable (Plugin: KiviCare)
+[2026-02-19 03:36:13] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateDoctorClinicMappingsTable (Plugin: KiviCare)
+[2026-02-19 03:36:13] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateGcalAppointmentMappingTable (Plugin: KiviCare)
+[2026-02-19 03:36:14] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateMedicalHistoryTable (Plugin: KiviCare)
+[2026-02-19 03:36:14] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateMedicalProblemsTable (Plugin: KiviCare)
+[2026-02-19 03:36:14] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePatientClinicMappingsTable (Plugin: KiviCare)
+[2026-02-19 03:36:14] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePatientEncountersTable (Plugin: KiviCare)
+[2026-02-19 03:36:15] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePatientEncountersTemplateMappingTable (Plugin: KiviCare)
+[2026-02-19 03:36:15] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePatientEncountersTemplateTable (Plugin: KiviCare)
+[2026-02-19 03:36:16] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePatientMedicalReportTable (Plugin: KiviCare)
+[2026-02-19 03:36:16] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePaymentsAppointmentMappingsTable (Plugin: KiviCare)
+[2026-02-19 03:36:16] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePrescriptionEnconterTemplateTable (Plugin: KiviCare)
+[2026-02-19 03:36:16] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreatePrescriptionTable (Plugin: KiviCare)
+[2026-02-19 03:36:17] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateReceptionistClinicMappingsTable (Plugin: KiviCare)
+[2026-02-19 03:36:17] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateServiceDoctorMappingTable (Plugin: KiviCare)
+[2026-02-19 03:36:17] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateServicesTable (Plugin: KiviCare)
+[2026-02-19 03:36:17] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateStaticDataTable (Plugin: KiviCare)
+[2026-02-19 03:36:18] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateTaxDataTable (Plugin: KiviCare)
+[2026-02-19 03:36:18] [ERROR] [KCMigrator] Successfully ran migration: 2025_05_04_CreateTaxesTable (Plugin: KiviCare)
+[2026-02-19 03:36:18] [ERROR] [KCMigrator] Successfully ran migration: 2025_07_09_AddDefaultModuleConfig (Plugin: KiviCare)
+[2026-02-19 03:36:18] [ERROR] [KCMigrator] Successfully ran migration: 2025_07_10_CreateAppointmentReminderMappingDataTable (Plugin: KiviCare)
+[2026-02-19 03:36:22] [ERROR] [KCMigrator] Successfully ran migration: 2025_07_30_CreateDefaultEmailTemplates (Plugin: KiviCare)
+[2026-02-19 03:36:22] [ERROR] [KCMigrator] Successfully ran migration: 2025_09_12_CreateCustomNotificationsTable (Plugin: KiviCare)
+[2026-02-19 03:36:23] [ERROR] [KCMigrator] Successfully ran migration: 2025_12_15_GenerateAllDefaultTemplates (Plugin: KiviCare)
+[2026-02-19 03:36:24] [DEBUG] KiviCare Migration: Successfully added enhanced holiday fields to wp_kc_clinic_schedule
+[2026-02-19 03:36:24] [ERROR] [KCMigrator] Successfully ran migration: 2026_02_09_AddEnhancedHolidayFields (Plugin: KiviCare)
+[2026-02-19 03:36:24] [ERROR] [KCMigrator] Successfully ran migration: 2026_02_16_MergeContactNumberWithCountryCode (Plugin: KiviCare)
+[2026-02-19 03:37:11] [ERROR] [KCMigrator] Successfully ran migration: 2025_10_15_OptimizeKiviCareCoreTables (Plugin: KiviCare)
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 1
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 2
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 3
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 4
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 5
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 6
+[2026-02-19 03:37:39] [ERROR] KCStaticData::save - Success - Result: 7
+[2026-02-19 03:43:04] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:43:31] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:45:42] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:45:54] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:55:48] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:57:54] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:57:58] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:58:03] [ERROR] KiviCare Pro is not active.
+[2026-02-19 03:59:39] [ERROR] KiviCare Pro is not active.
+[2026-02-19 04:02:36] [ERROR] KiviCare Pro is not active.
+[2026-02-19 04:05:35] [ERROR] KiviCare Pro is not active.

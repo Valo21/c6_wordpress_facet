@@ -10,4 +10,12 @@
   ); 
   } 
   add_action( 'wp_enqueue_scripts', 'my_child_theme_enqueue_styles' ); 
+  
+  add_action("wp_enqueue_scripts", "insertar_google_fonts");  
+    function insertar_google_fonts(){ 
+    $url = "https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"; 
+    wp_enqueue_style('google_fonts', $url); 
+  } 
+
+
 ?> 
