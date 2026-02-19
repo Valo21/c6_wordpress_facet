@@ -7,7 +7,6 @@
 </head>
 <body <?php body_class(); ?>>
     <header class="header-container">
-        <!-- podría ir código de logo -->
         <h1><?php bloginfo('name'); ?></h1>
         <nav class="navbar navbar-light bg-light"> 
         <section class="container">             
